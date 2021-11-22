@@ -5,10 +5,18 @@
            mul(a, b); //求两个数的积
  */
 
-exports.add = function add(a, b) {
-    return a + b;
-}
+//这里不加函数名add
+// exports.add = function add(a, b) {
+//     return a + b;
+// };
 
-exports.mul = function mul(a, b) {
+exports.add = function (a, b) {
+    return a + b;
+};
+
+// exports.mul = function mul(a, b) {
+//     return a * b;
+// };
+exports.mul = function (a, b) {
     return a * b;
-}
+};
