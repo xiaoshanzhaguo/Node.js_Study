@@ -16,6 +16,7 @@ module.exports.sayName = function () {
 //     }
 // };
 
+//下面这样写会报错
 exports = {
     name: "猪八戒",
     age: 28,

@@ -41,7 +41,7 @@ console.log(arguments.length);
 //其实下面这两个是一个东西
 console.log(exports);
 console.log(module.exports);
-console.log(module.exports == exports); //module代表的是模块本身，而exports代表的只是模块里的属性
+console.log(module.exports == exports); //module代表的是模块本身，而exports代表的只是模块里的属性，并且这里会输出true
 
 console.log(__filename);
 console.log(__dirname);
